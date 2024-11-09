@@ -82,7 +82,7 @@ def advanced_filter(files, condition):
 @app.route('/files/filter', methods=['GET'])
 def filter_files():
     """
-    Endpoint um Dateien basierend auf der Größe zu filtern.
+    Endpoint um Dateien basierend auf der Grösse zu filtern.
     A1E: Vergleich des funktionalen mit dem prozeduralen Paradigma in der Praxis.
     """
     directory = request.args.get('directory', '.')
